@@ -11,10 +11,17 @@ abstract class DBTemplate {
     // 抽象方法：连接数据库（子类实现）
     protected abstract void connDB();
 
+    
+
     // 固定方法：打开数据库
     protected void openDB() {
         System.out.println("打开数据库连接");
+        
     }
+
+
+ // 固定方法：使用数据库
+    
 
     // 固定方法：使用数据库
     protected void useDB() {
