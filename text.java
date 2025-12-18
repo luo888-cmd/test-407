@@ -10,7 +10,7 @@ abstract class DBTemplate {
 
     // 抽象方法：连接数据库（子类实现）
     protected abstract void connDB();
-
+    //欢迎大家学习Git
     
 
     // 固定方法：打开数据库
